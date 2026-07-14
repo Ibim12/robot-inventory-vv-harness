@@ -1,0 +1,27 @@
+{
+  "metrics": {
+    "inventory_accuracy": 0.85,
+    "precision": 0.9659090909090909,
+    "recall": 0.85,
+    "duplicate_rate": 0.06382978723404255,
+    "missing_scan_rate": 0.12,
+    "average_confidence": 0.9036595744680851
+  },
+  "release_decision": {
+    "decision": "FAIL",
+    "checks": {
+      "inventory_accuracy": false,
+      "precision": true,
+      "recall": false,
+      "duplicate_rate": false,
+      "missing_scan_rate": false,
+      "average_confidence": true
+    },
+    "failed_checks": [
+      "inventory_accuracy",
+      "recall",
+      "duplicate_rate",
+      "missing_scan_rate"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+release_name: "Inventory Scanner Release Candidate"
+
+acceptance_criteria:
+  minimum_inventory_accuracy: 0.95
+  minimum_precision: 0.95
+  minimum_recall: 0.93
+  maximum_duplicate_rate: 0.02
+  maximum_missing_scan_rate: 0.05
+  minimum_average_confidence: 0.85
